@@ -31,23 +31,14 @@ const TAB_DATA = [
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <SkillCard 
           title="Development" 
-          skills={["Node.js", "Next.js", "React", "JavaScript"]}
+          skills={["C#"]}
           color="cyan"
         />
         <SkillCard 
           title="Game Dev" 
-          skills={["Unity", "Godot", "C#", "C++"]}
+          skills={["Unity"]}
           color="purple"
-        />
-        <SkillCard 
-          title="AI & ML" 
-          skills={["Python", "OpenCV", "Deep Learning", "LLM"]}
-          color="green"
-        />
-        <SkillCard 
-          title="Other" 
-          skills={["PostgreSQL", "Git", "GCP", "VR/AR"]}
-          color="yellow"
+       
         />
       </div>
     ),
@@ -62,7 +53,7 @@ const TAB_DATA = [
             {/* Masters Degree */}
             <div className="flex flex-col space-y-2">
               <h3 className="text-xl font-bold text-white">
-                Master&apos;s in Computer Science
+                  Getting my bachelor&apos;s in Computer Science
               </h3>
               <p className="text-gray-300">University of Texas Rio Grande Valley</p>
               <div className="flex items-center space-x-2">
@@ -71,7 +62,7 @@ const TAB_DATA = [
               </div>
             </div>
 
-            {/* Bachelors Degree */}
+            {/* getting Bachelors Degree */}
             <div className="flex flex-col space-y-2">
               <h3 className="text-xl font-bold text-white">
                 Bachelor&apos;s in Computer Science
@@ -103,21 +94,21 @@ const TAB_DATA = [
           icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>}
-          text="Reading Manga/Manhwa"
+          text="Building Model kits"
           color="red"
         />
         <HobbyCard 
           icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
           </svg>}
-          text="Watching Animated Shows"
+          text="Watching Mecha anime"
           color="blue"
         />
         <HobbyCard 
           icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
           </svg>}
-          text="Cooking and Baking"
+          text="Grilling"
           color="yellow"
         />
         <HobbyCard 
